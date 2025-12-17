@@ -1,11 +1,15 @@
-.navbar{
+.navbar {
     background-color: #D9BB9B;
-    color: #f30000;
 }
 
-@media (min-width: 576px){
-    .dropdown:hover > .dropdown-menu {
+@media (min-width: 576px) {
+    .dropdown:hover>.dropdown-menu {
         display: block;
         margin-top: 0;
+    }
+
+    #navCont {
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
 }

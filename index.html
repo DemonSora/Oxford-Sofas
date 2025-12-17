@@ -12,11 +12,11 @@
 
 <body>
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light py-xl-3 py-l-3 py-md-3">
+        <div class="container-fluid" id="navCont">
 
             <!-- Navbar Button for small screens -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" id="navToggle">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -25,21 +25,35 @@
 
             <!-- Nav items -->
             <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
                     <li class="nav-item dropdown">
-                        <a href="" class="nav-link dropdown-toggle" id="homeSofaDrop" role="button" data-bs-toggle="dropdown">Home sofas</a>
+                        <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Home sofas</a>
                         <!-- Home Sofa Items -->
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">aaa</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Office sofas</a>
+                        <!-- Office Sofa Items -->
                         <ul class="dropdown-menu">
                             <li><a href="" class="dropdown-item">aaa</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
+
             <!-- Search Bar -->
+             <form class="d-flex srch">
+                <input type="search" class="form-control me-3 srch" placeholder="Search anything..">
+                <button class="btn btn-outline-dark srch">Search</button>
+             </form>
         </div>
     </nav>
 
     <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

@@ -7,12 +7,13 @@
     <title>Oxford Sofas</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="./bootstrap-icons-1.13.1/bootstrap-icons.min.css">
     <script src="./jquery-3.7.1.js"></script>
 </head>
 
 <body>
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-light py-xl-3 py-l-3 py-md-3">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light py-xl-3 py-l-3 py-md-3 fs-5">
         <div class="container-fluid" id="navCont">
 
             <!-- Navbar Button for small screens -->
@@ -21,37 +22,32 @@
             </button>
 
             <!-- Logo/Brand name -->
-            <a href="" class="navbar-brand">Oxford Sofas</a>
+            <a href="" class="navbar-brand fs-4">Oxford Sofas</a>
 
             <!-- Nav items -->
             <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3 mx-auto">
                     <li class="nav-item dropdown">
-                        <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Home sofas</a>
+                        <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Products</a>
                         <!-- Home Sofa Items -->
                         <ul class="dropdown-menu">
-                            <li><a href="" class="dropdown-item">aaa</a></li>
+                            <li><a href="" class="dropdown-item">Home Sofas</a></li>
+                            <li><a href="" class="dropdown-item">Office Sofas</a></li>
                         </ul>
                     </li>
-
-                    <li class="nav-item dropdown">
-                        <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Office sofas</a>
-                        <!-- Office Sofa Items -->
-                        <ul class="dropdown-menu">
-                            <li><a href="" class="dropdown-item">aaa</a></li>
-                        </ul>
-                    </li>
+                    <li class="nav-item"><a href="" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">FAQ</a></li>
                 </ul>
             </div>
 
             <!-- Search Bar -->
-             <form class="d-flex srch">
-                <input type="search" class="form-control me-3 srch" placeholder="Search anything..">
-                <button class="btn btn-outline-dark srch">Search</button>
+             <form class="d-flex" id="searchBar">
+                <input type="search" class="form-control me-3" placeholder="Search anything..">
+                <button class="btn btn-outline-dark"><span class="bi bi-search"></span></button>
              </form>
         </div>
     </nav>
-
     <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
 </body>

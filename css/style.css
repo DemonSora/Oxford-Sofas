@@ -44,6 +44,8 @@ body{
 
 #footerTag{
     background-color: #DACAA4;
+    border-top: 2px solid #AE9882;
+    bottom: 0;
 }
 
 .footerList{

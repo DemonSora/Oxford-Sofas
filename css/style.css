@@ -62,3 +62,17 @@ body{
 .footerLink:hover{
     color: #08090a;
 }
+
+.footerEnd{
+    list-style-type: none;
+    color: #2c3136;
+}
+
+.footerLastLink{
+    color: #2c3136;
+    text-decoration: none;
+}
+
+.footerLastLink:hover{
+    color: #000000;
+}

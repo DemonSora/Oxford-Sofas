@@ -1,7 +1,3 @@
-#aboutCont{
-    margin-top: 2vh;    
-}
-
 @media (min-width: 768px) {
     #lvngImg {
         object-fit: cover;

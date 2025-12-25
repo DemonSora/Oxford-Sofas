@@ -1,10 +1,11 @@
 /* Navbar and Body */
-body {
-    background-color: #F6E2B5;
+#body {
+    background-color: #f0eddc;
 }
 
 .navbar {
     background-color: #D9BB9B;
+    box-shadow: #8b7148 0 2px 10px;
 }
 
 @media (min-width: 768px) {

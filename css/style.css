@@ -7,3 +7,19 @@
     opacity: 1;
     transition: opacity ease-out .7s;
 }
+
+@media (min-width: 768px) {
+    .carousel-img {
+        height: 60vh;
+        object-fit: cover;
+        object-position: bottom;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-img {
+        height: 85vh;
+        object-fit: cover;
+        object-position: bottom;
+    }
+}

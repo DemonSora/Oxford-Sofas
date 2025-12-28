@@ -12,4 +12,16 @@
         object-fit: cover;
         object-position: 0 65%;
     }
+    #SofaProducImg {
+        height: 65vh;
+        width: 90vw;
+        object-fit: cover;
+        object-position: 0 80%;
+    }
+    #SofaFabricImg{
+        height: 85vh;
+    }
+    #SofaQualityImg{
+        height: 90vh;
+    }
 }

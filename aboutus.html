@@ -127,9 +127,44 @@
 
 
             <!-- Slider -->
-             <div class="row mt-5 align-items-center">
+            <div class="row mt-5 align-items-center">
                 <div class="col-12 col-lg-6 order-first order-lg-last">
-                    <img src="./imgs/SofaQuality.jpg" alt="" class="img-fluid" id="SofaQualityImg">
+                    <div id="spacesCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#spacesCarousel" data-bs-slide-to="0"
+                                class="active"></button>
+                            <button type="button" data-bs-target="#spacesCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#spacesCarousel" data-bs-slide-to="2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3500">
+                                <img src="./imgs/HomeSofa.jpg" class="d-block imgCarousel img-fluid" id="HomeSofa" alt="...">
+                                <div class="carousel-caption d-block">
+                                    <h5>Home Sofa</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3500">
+                                <img src="./imgs/OfficeSofa.jpg" class="d-block imgCarousel img-fluid" id="OfficeSofa" alt="...">
+                                <div class="carousel-caption d-block">
+                                    <h5>Office Sofa</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3500">
+                                <img src="./imgs/HotelSofa.jpg" class="d-block imgCarousel img-fluid" alt="...">
+                                <div class="carousel-caption d-block">
+                                    <h5>Hotel Sofa</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#spacesCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#spacesCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
                 </div>
                 <div class="col-12 col-lg-6 order-last order-lg-first text-center text-lg-end">
                     <h2 class="mt-4">Quality, Simplified</h2>
@@ -141,8 +176,8 @@
                     <p class="fs-5">Nothing excessive. Nothing unnecessary.</p>
                     <p class="fs-5">Just well-made sofas, built or chosen to last.</p>
                 </div>
-             </div>
-            
+            </div>
+
 
         </div>
     </div>

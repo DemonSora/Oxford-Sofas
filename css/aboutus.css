@@ -3,6 +3,11 @@
         object-fit: cover;
         object-position: 0 65%;
     }
+    .imgCarousel{
+        height: 50vh;
+        object-fit: cover;
+        object-position: 0 100%;
+    }
 }
 
 @media (min-width: 992px) {
@@ -24,4 +29,20 @@
     #SofaQualityImg{
         height: 90vh;
     }
+    .imgCarousel{
+        height: 35vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 100%;
+    }
+}
+
+.carousel.carousel-fade .carousel-inner .carousel-item, .carousel-caption {
+    opacity: 0;
+    transition: opacity ease-out .5s;
+}
+
+.carousel.carousel-fade .carousel-inner .carousel-item.active, .carousel-caption {
+    opacity: 1;
+    transition: opacity ease-out .5s;
 }

@@ -39,10 +39,10 @@
 
 .carousel.carousel-fade .carousel-inner .carousel-item, .carousel-caption {
     opacity: 0;
-    transition: opacity ease-out .5s;
+    transition: opacity ease-out .8s;
 }
 
 .carousel.carousel-fade .carousel-inner .carousel-item.active, .carousel-caption {
     opacity: 1;
-    transition: opacity ease-out .5s;
+    transition: opacity ease-out .8s;
 }
